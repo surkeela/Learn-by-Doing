@@ -13,6 +13,7 @@
 		521DC0162833F0DB0058EB43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521DC0152833F0DB0058EB43 /* Preview Assets.xcassets */; };
 		521DC01D2833F67B0058EB43 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521DC01C2833F67B0058EB43 /* CardView.swift */; };
 		52CD177728391E9100896525 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD177628391E9100896525 /* CardModel.swift */; };
+		52CD1779283920E200896525 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD1778283920E200896525 /* CardData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		521DC0152833F0DB0058EB43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		521DC01C2833F67B0058EB43 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		52CD177628391E9100896525 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		52CD1778283920E200896525 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				521DC00E2833F0D90058EB43 /* Learn_by_DoingApp.swift */,
-				52CD177628391E9100896525 /* CardModel.swift */,
 				521DC0102833F0D90058EB43 /* ContentView.swift */,
+				52CD177628391E9100896525 /* CardModel.swift */,
+				52CD1778283920E200896525 /* CardData.swift */,
 				521DC0122833F0DB0058EB43 /* Assets.xcassets */,
 				521DC0142833F0DB0058EB43 /* Preview Content */,
 				521DC01C2833F67B0058EB43 /* CardView.swift */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52CD1779283920E200896525 /* CardData.swift in Sources */,
 				521DC0112833F0D90058EB43 /* ContentView.swift in Sources */,
 				52CD177728391E9100896525 /* CardModel.swift in Sources */,
 				521DC01D2833F67B0058EB43 /* CardView.swift in Sources */,
